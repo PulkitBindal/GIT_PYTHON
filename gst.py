@@ -1,0 +1,5 @@
+a=int(input("Enter the cost price of product :Rs."))
+print("Your SGST applied is :Rs.",a*9/100)
+print("Your CGST applied is :Rs.",a*9/100)
+total=a+(a*9/100)+(a*9/100)
+print("The total Amount you have to pay is :",total)
